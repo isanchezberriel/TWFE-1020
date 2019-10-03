@@ -24,11 +24,11 @@ Crear un fichero de automatización de tareas en el que se prueben lo que se ha 
 ## Códigos de ejemplo 
 
 ### Yeoman
-npm install -g yo //instalar yeoman  
+'npm install -g yo //instalar yeoman  
 npm install -g generator-webapp       // Instalar el generador  
 mkdir /home/tuUsuario/nuevoProyecto  // Crear la carpeta del proyecto  
 cd /home/tuUsuario/nuevoProyecto      // Entrar en la carpeta proyecto  
-yo webapp   
+yo webapp    '
 
 ### Gulp
 var gulp = require('gulp');  
