@@ -34,27 +34,27 @@ Crear un fichero de automatización de tareas en el que se prueben lo que se ha 
 `var gulp = require('gulp');`    
 `var concatCss = require('gulp-concat-css'); //paquete a utilizar`  
 
-`gulp.task(“default”, function() { //tarea por defecto`
-`gulp.src('./src/html/*.*').pipe(gulp.dest('dist'));  `
-`gulp.src('./src/css/*.*').pipe(concatCss("super.css")).pipe(gulp.dest('dist'));`
+`gulp.task(“default”, function() { //tarea por defecto`  
+`gulp.src('./src/html/*.*').pipe(gulp.dest('dist'));`  
+`gulp.src('./src/css/*.*').pipe(concatCss("super.css")).pipe(gulp.dest('dist'));`  
 `gulp.src("./src/js/*.*").pipe(gulp.dest("dist"));`  
-});
+`});`  
 #### Minify Css
 `npm install --save-dev gulp-minify-css`    
-`var gulp = require('gulp');`
+`var gulp = require('gulp');`  
 `var browserSync = require('browser-sync').create();`  
-`var minifyCss = require('gulp-minify-css);`
+`var minifyCss = require('gulp-minify-css);`  
 
-`gulp.task('styles', function(){`
-`gulp.src(['src/styles/**/*.css'])`
-`.pipe(minifyCss())`
-`.pipe(gulp.dest.('dist/styles'))`
-`.pipe(browserSync.stream());`
+`gulp.task('styles', function(){`  
+`gulp.src(['src/styles/**/*.css'])`  
+`.pipe(minifyCss())`  
+`.pipe(gulp.dest.('dist/styles'))`  
+`.pipe(browserSync.stream());`  
 `});`  
-`gulp.task('default', function(){`
+`gulp.task('default', function(){`  
 `browserSync.init({`  
 `server:'./'});`  
-`gulp.watch('*.html', browserSync.reload);`
+`gulp.watch('*.html', browserSync.reload);`  
 `});` 
 
 
