@@ -24,23 +24,23 @@ Crear un fichero de automatización de tareas en el que se prueben lo que se ha 
 ## Códigos de ejemplo 
 
 ### Yeoman
-'npm install -g yo //instalar yeoman  
+`npm install -g yo //instalar yeoman  
 npm install -g generator-webapp       // Instalar el generador  
 mkdir /home/tuUsuario/nuevoProyecto  // Crear la carpeta del proyecto  
 cd /home/tuUsuario/nuevoProyecto      // Entrar en la carpeta proyecto  
-yo webapp    '
+yo webapp`
 
 ### Gulp
-var gulp = require('gulp');  
+`var gulp = require('gulp');  
 var concatCss = require('gulp-concat-css'); //paquete a utilizar  
 
 gulp.task(“default”, function() { //tarea por defecto  
 gulp.src('./src/html/*.*').pipe(gulp.dest('dist'));  
 gulp.src('./src/css/*.*').pipe(concatCss("super.css")).pipe(gulp.dest('dist'));  
 gulp.src("./src/js/*.*").pipe(gulp.dest("dist"));  
-});
+});`
 #### Minify Css
-npm install --save-dev gulp-minify-css  
+`npm install --save-dev gulp-minify-css  
 var gulp = require('gulp');  
 var browserSync = require('browser-sync').create();  
 var minifyCss = require('gulp-minify-css);  
@@ -50,14 +50,12 @@ gulp.src(['src/styles/**/*.css'])
 .pipe(minifyCss())  
 .pipe(gulp.dest.('dist/styles'))  
 .pipe(browserSync.stream());  
-});
-
-
+});  
 gulp.task('default', function(){  
 browserSync.init({  
 server:'./'});  
 gulp.watch('*.html', browserSync.reload);  
-});  
+});` 
 
 
 
