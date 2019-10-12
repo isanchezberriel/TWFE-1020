@@ -32,9 +32,6 @@ Crear un fichero de automatización de tareas en el que se prueben lo que se ha 
 
 ### Gulp
 ```javascript
-require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
-
 var gulp = require('gulp');
 var concatCss = require('gulp-concat-css'); //paquete a utilizar
 
