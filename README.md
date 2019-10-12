@@ -31,14 +31,19 @@ Crear un fichero de automatización de tareas en el que se prueben lo que se ha 
 `yo webapp`
 
 ### Gulp
-`var gulp = require('gulp');`    
-`var concatCss = require('gulp-concat-css'); //paquete a utilizar`  
+```javascript
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
 
-`gulp.task(“default”, function() { //tarea por defecto`  
-`gulp.src('./src/html/*.*').pipe(gulp.dest('dist'));`  
-`gulp.src('./src/css/*.*').pipe(concatCss("super.css")).pipe(gulp.dest('dist'));`  
-`gulp.src("./src/js/*.*").pipe(gulp.dest("dist"));`  
-`});`  
+var gulp = require('gulp');
+var concatCss = require('gulp-concat-css'); //paquete a utilizar
+
+gulp.task(“default”, function() { //tarea por defecto
+gulp.src('./src/html/*.*').pipe(gulp.dest('dist'));
+gulp.src('./src/css/*.*').pipe(concatCss("super.css")).pipe(gulp.dest('dist'));
+gulp.src("./src/js/*.*").pipe(gulp.dest("dist"));
+});
+```
 #### Minify Css
 `npm install --save-dev gulp-minify-css`    
 `var gulp = require('gulp');`  
