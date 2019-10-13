@@ -39,7 +39,7 @@ Se debe tener en cuenta las siguientes consideraciones:
 El generator learnfe crea un proyecto muy básico, con lo esencial, para que creen ustedes el fichero `gulpfile.js` 
 Pueden desplegar el proyecto como una github page.
 ### Utilidades:
-Transpilador Sass online: (https://www.sassmeister.com/)
+Transpilador Sass online: (https://www.sassmeister.com/)  
 Codificar Front End online: (https://codepen.io/pen/)
 
 
