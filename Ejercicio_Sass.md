@@ -4,7 +4,7 @@ En este ejercicio se pondrá en práctica el tema 1 (Herramientas de trabajo) y 
 En la imagen se propone una estructura para una landing page de una empresa. El objetivo es especificar los estilos utilizando Sass.
 
 
-![Mockup ejercicio](/ruta/a/la/imagen.jpg)
+![Mockup ejercicio](./Mockuplanding.png)
 Se debe tener en cuenta las siguientes consideraciones:
 Deben definirse módulos, utilizando al menos los parciales:
 - _variables.scss
