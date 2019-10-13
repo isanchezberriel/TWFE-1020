@@ -29,9 +29,15 @@ Se debe tener en cuenta las siguientes consideraciones:
 - Iniciar el control de versiones (git)
 - Iniciar el control de dependencias (npm)
 - Automatizar tareas (Gulp):
--- Actualizaciones en tiempo real en el navegador.
--- Minificar css
--- Sources maps
+    - Actualizaciones en tiempo real en el navegador.
+    - Minificar css
+    - Sources maps
 - Instalar Ruby, ya que isntalaremos Sass como una gema de Ruby. Es decir, que Sass lo instalamos usando el administrador de paquetes de Ruby, llamado `gem`
 - Instalar sass (gem) 
-## Despliegue de la aplicación
+
+## Observaciones
+El generator learnfe crea un proyecto muy básico, con lo esencial, para que creen ustedes el fichero `gulpfile.js` 
+Pueden desplegar el proyecto como una github page.
+
+## Extra
+Descarga el código Sass del framework (https://github.com/Dogfalo/materialize/releases/download/1.0.0/materialize-src-v1.0.0.zip)
