@@ -40,4 +40,4 @@ El generator learnfe crea un proyecto muy básico, con lo esencial, para que cre
 Pueden desplegar el proyecto como una github page.
 
 ## Extra
-Descarga el código Sass del framework (https://github.com/Dogfalo/materialize/releases/download/1.0.0/materialize-src-v1.0.0.zip)
+Descarga el código Sass del framework (https://github.com/Dogfalo/materialize/releases/download/1.0.0/materialize-src-v1.0.0.zip) Analiza el código y determina, los parciales mínimos necesarios para construir una barra de navegación.
