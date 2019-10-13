@@ -38,6 +38,10 @@ Se debe tener en cuenta las siguientes consideraciones:
 ## Observaciones
 El generator learnfe crea un proyecto muy básico, con lo esencial, para que creen ustedes el fichero `gulpfile.js` 
 Pueden desplegar el proyecto como una github page.
+### Utilidades:
+Transpilador Sass online: (https://www.sassmeister.com/)
+Codificar Front End online: (https://codepen.io/pen/)
+
 
 ## Extra
 Descarga el código Sass del framework (https://github.com/Dogfalo/materialize/releases/download/1.0.0/materialize-src-v1.0.0.zip) Analiza el código y determina, los parciales mínimos necesarios para construir una barra de navegación.
