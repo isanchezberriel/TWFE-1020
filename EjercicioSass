@@ -1,0 +1,17 @@
+Instalar nodejs
+Instalar npm
+Instalar git
+Instalar Yeoman (npm)
+Instalar el generador generator-learnfe (npm)
+Instalar Gulp (npm)
+Crear un directorio para el proyecto.
+Iniciar un proyecto básico para aprendizaje: generator-learnfe (npm)
+Iniciar el control de versiones (git)
+Iniciar el control de dependencias (npm)
+Automatizar tareas (Gulp):
+Actualizaciones en tiempo real en el navegador.
+Minificar css
+Sources maps
+Instalar ruby
+Instalar sass (gem)
+
