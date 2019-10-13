@@ -5,13 +5,13 @@ En la imagen se propone una estructura para una landing page de una empresa. El 
 ![Mockup ejercicio](Ejercicio_IntroSass.png)
 Se debe tener en cuenta las siguientes consideraciones:
 - Deben definirse módulos, utilizando al menos los parciales:
--- _variables.scss
--- _mixins.scss: 
--- _base.scss: Estilos comunes, aplicables a todas las páginas del sitio.
+    - _variables.scss
+    - _mixins.scss: 
+    - _base.scss: Estilos comunes, aplicables a todas las páginas del sitio.
 - Definir mixins al menos para: Además se deben definir:
--- encabezados, h1
--- centrar contenido
--- estilos del form
+    - encabezados, h1
+    - centrar contenido
+    - estilos del form
 - Anidar los estilos de los botones de form, para que se apliquen estilos específicos en el hover de ellos.
 - Anidar los estilos de los elementos dentro del form, para que se resalten cuando tengan el foco.
 - Utilizar el mismo estilo en los encabezados de la parte de testimonio que en la de garantías, pero con un cambio en el color de texto.
