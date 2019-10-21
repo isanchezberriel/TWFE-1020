@@ -27,7 +27,7 @@
     <p class="small">© Copyright {{ site.time | date: '%Y' }} {{ site.author }}</p>
 </footer>
 ```
-4. Indicar qué escripts se están invocando con el siguiente código:
+4. Indicar qué scripts se están invocando con el siguiente código:
 ```html
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <script src="{{ "/" | relative_url  }}assets/js/main.js"></script>
