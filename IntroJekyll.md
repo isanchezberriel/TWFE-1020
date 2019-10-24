@@ -18,6 +18,8 @@ En el directorio raíz del proyecto se incluirán el archivo index.html y aquell
 - El comando `ps aux |grep jekyll |awk '{print $2}' | xargs kill -9` puede ser útil si necesitamos automatizar una tarea en la que se pare el proceso del servidor lanzado.
 
 # Ejercicios:
-1. Analizaremos el proyecto Jekyll básico en el repositorio: [Proyecto Básico en Jekyll](https://github.com/jekyll/example). 
-    1.1. Añade dos página adicionales al proyecto, y haz que se muestren junto con la página About.
+1. Analizaremos el proyecto Jekyll básico en el repositorio: [Proyecto Básico en Jekyll](https://github.com/jekyll/example).
+  - Añade dos página adicionales al proyecto, y haz que se muestren junto con la página About.
+  - Añade otor post al proyecto, y haz que se muestre en la página index.html
+  - 
 
