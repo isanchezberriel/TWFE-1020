@@ -33,3 +33,15 @@
   <script src="{{ "/" | relative_url  }}assets/js/main.js"></script>
   <script src="{{ "/" | relative_url  }}assets/js/highlight.js"></script>
 ```
+5.  Indica el resultado que se obtiene con el siguiente código, sabiendo que `paginas` corresponde la colección de almacenada en `_characters`, 
+```html 
+       <ul class="nav">
+          {% assign paginas = site.paginas | sort: 'name' %}
+          {% for pagina in paginas %}
+            <li class="nav__item">
+              <a href="{{ pagina.url }}">{{ pagina.title }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+       ```
+
