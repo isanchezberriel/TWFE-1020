@@ -21,4 +21,38 @@ En el directorio raíz del proyecto se incluirán el archivo index.html y aquell
 1. Analizaremos el proyecto Jekyll básico en el repositorio: [Proyecto Básico en Jekyll](https://github.com/jekyll/example).
   - Añade dos página adicionales al proyecto, y haz que se muestren junto con la página About.
   - Añade otor post al proyecto, y haz que se muestre en la página index.html
+2. Identifica objetos, filtros y etiquetas en el siguiente fragmento de código e indica cuál es u finalidad.  
+```html
+        {% assign episodes = site.episodes | sort: 'weight' %}  
+        `{% for episode in episodes limit: 6 %}  
+          `<div class="grid__cell grid__cell--33">
+            `{% include episode_preview.html episode=episode %}
+          </div>
+        {% endfor %}
+```
+3. Qué código html tendría tendría como salida:
+```html
+<html>   
+        <head>  
+           <title>{{ page.title }} -Ejemplo Jekyll </title>
+        </head>
+        <body>  
+           {% include nav.html %}` 
+           {{ content }}
+        </body>  
+</html> 
+```
+4. Especifica los filtros, variales Jekyll, tags, y qué se consigue con el siguiente código.
+```html
+<footer id="footer">
+    <p class="small">© Copyright {{ site.time | date: '%Y' }} {{ site.author }}</p>
+</footer>
+```
+4. Indicar qué scripts se están invocando con el siguiente código:
+```html
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="{{ "/" | relative_url  }}assets/js/main.js"></script>
+  <script src="{{ "/" | relative_url  }}assets/js/highlight.js"></script>
+```
+
 
