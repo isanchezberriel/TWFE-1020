@@ -46,13 +46,14 @@
 ```
 
 6. Dada una colección de documentos con el siguiente frontmatter:
-```html 
+```
 ---
 title: Mi Pagina
 thumbnail_url:  https://XXX
 image_url: https://
----
+---```  
 Indicar qué objetivo tiene el siguiente include:
+```html 
 <a href="{{ character.url }}" class="character-preview">
   <img src="{{ character.thumbnail_url }}" class="character-preview__image" />
   <div class="character-preview__label">
