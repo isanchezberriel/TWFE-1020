@@ -20,7 +20,7 @@ En el directorio raíz del proyecto se incluirán el archivo index.html y aquell
 # Ejercicios:
 1. Analizaremos el proyecto Jekyll básico en el repositorio: [Proyecto Básico en Jekyll](https://github.com/jekyll/example).
   - Añade dos página adicionales al proyecto, y haz que se muestren junto con la página About.
-  - Añade otor post al proyecto, y haz que se muestre en la página index.html
+  - Añade otro post al proyecto, y haz que se muestre en la página index.html
 2. Identifica objetos, filtros y etiquetas en el siguiente fragmento de código e indica cuál es u finalidad.  
 ```html
         {% assign episodes = site.episodes | sort: 'weight' %}  
