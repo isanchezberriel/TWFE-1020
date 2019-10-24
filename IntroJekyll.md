@@ -48,11 +48,38 @@ En el directorio raíz del proyecto se incluirán el archivo index.html y aquell
     <p class="small">© Copyright {{ site.time | date: '%Y' }} {{ site.author }}</p>
 </footer>
 ```
-4. Indicar qué scripts se están invocando con el siguiente código:
+5. Indicar qué scripts se están invocando con el siguiente código:
 ```html
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <script src="{{ "/" | relative_url  }}assets/js/main.js"></script>
   <script src="{{ "/" | relative_url  }}assets/js/highlight.js"></script>
 ```
 
+5.  Indica el resultado que se obtiene con el siguiente código, sabiendo que `paginas` corresponde la colección de almacenada en `_characters`, 
+```html 
+       <ul class="nav">
+          {% assign paginas = site.paginas | sort: 'name' %}
+          {% for pagina in paginas %}
+            <li class="nav__item">
+              <a href="{{ pagina.url }}">{{ pagina.title }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+```
 
+6. Dada una colección de documentos con las siguientes variables en el frontmatter:
+```
+title: Mi Pagina
+thumbnail_url:  https://XXX
+image_url: https://
+```  
+Indicar qué objetivo tiene el siguiente include:  
+```html 
+<a href="{{ character.url }}" class="character-preview">
+  <img src="{{ character.thumbnail_url }}" class="character-preview__image" />
+  <div class="character-preview__label">
+    {{ character.title }}
+  </div>
+</a>
+```
+7. Crea una plantilla para una página con la estructura del [ejemplo en este enlace](http://10.6.129.155/prac2/)
