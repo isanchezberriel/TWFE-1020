@@ -21,5 +21,4 @@ En el directorio raíz del proyecto se incluirán el archivo index.html y aquell
 1. Analizaremos el proyecto Jekyll básico en el repositorio: [Proyecto Básico en Jekyll](https://github.com/jekyll/example).
   - Añade dos página adicionales al proyecto, y haz que se muestren junto con la página About.
   - Añade otor post al proyecto, y haz que se muestre en la página index.html
-  - 
 
