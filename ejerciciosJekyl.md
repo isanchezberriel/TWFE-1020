@@ -60,3 +60,4 @@ Indicar qué objetivo tiene el siguiente include:
   </div>
 </a>
 ```
+7. Crea una plantilla para una página con la estructura del [ejemplo en este enlace](http://10.6.129.155/prac2/)
