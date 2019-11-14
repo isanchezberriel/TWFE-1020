@@ -1,0 +1,19 @@
+# Web Components:
+## Custom Elements
+## Plantillas
+```html
+<template id="templatesimple">
+		<style>
+		h1{
+			color: red;
+		}
+		p{
+			background-color: #ddd;
+		}
+		</style>
+		<h1>Ciudades del mundo</h1>
+		<template id="templateciudades">
+			<p></p>
+		</template>
+	</template>
+  ```
