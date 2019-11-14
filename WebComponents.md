@@ -32,15 +32,10 @@ document.body.appendChild(clone);```
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Importar un webcomponent</title>
-	<link rel="import" href="date.comp.html">
-	<link rel="import" href="romper-cadena.comp.html">
+	<title>Importar webcomponent</title>
+	<link rel="import" href="mi-etiqueta.html">
 </head>
 <body>
-	<dw-date></dw-date>
-	<br>
-	<romper-cadena len="30">Esta cadena se va a romper en la longitud de 30 caracteres o menos</romper-cadena>
-	<br>
-	<romper-cadena len="15">Este elemento me sirve para muchas cosas</romper-cadena>
+	<mi-etiqueta></mi-etiqueta>
 </body>
 </html>```
