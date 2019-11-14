@@ -12,9 +12,10 @@
 Con Java Script generamos el contenido con el que se rellena la plantilla.  
 
 ```javascript
+
 var libros = ["Cien Años de Soledad ", "La conjura de los necios"];
 
-var template = document.querySelector('#platillaPrincipal').content; //Da acceso a la plantilla que queremos acceder
+var template = document.querySelector('#platillaPrincipal').content; 
 var p = template.querySelector("tplantilla2").content.querySelector("p");
 libros.forEach(function(libro){
 	var parrafo = p.cloneNode(true);
@@ -23,3 +24,23 @@ libros.forEach(function(libro){
 });
 var clone = document.importNode(template, true);
 document.body.appendChild(clone);```
+
+
+## Importar HTML
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Importar un webcomponent</title>
+	<link rel="import" href="date.comp.html">
+	<link rel="import" href="romper-cadena.comp.html">
+</head>
+<body>
+	<dw-date></dw-date>
+	<br>
+	<romper-cadena len="30">Esta cadena se va a romper en la longitud de 30 caracteres o menos</romper-cadena>
+	<br>
+	<romper-cadena len="15">Este elemento me sirve para muchas cosas</romper-cadena>
+</body>
+</html>```
