@@ -10,8 +10,7 @@
 </template>```
 
 Con Java Script generamos el contenido con el que se rellena la plantilla.  
-
-```js
+```javascript
 var libros = ["Cien Años de Soledad ", "La conjura de los necios"];
 
 var template = document.querySelector('#platillaPrincipal').content; //Da acceso a la plantilla que queremos acceder
