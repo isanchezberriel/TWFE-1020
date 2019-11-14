@@ -10,6 +10,7 @@
 </template>```
 
 Con Java Script generamos el contenido con el que se rellena la plantilla.  
+
 ```javascript
 var libros = ["Cien Años de Soledad ", "La conjura de los necios"];
 
@@ -21,5 +22,4 @@ libros.forEach(function(libro){
 	template.appendChild(parrafo);
 });
 var clone = document.importNode(template, true);
-document.body.appendChild(clone);
-```
+document.body.appendChild(clone);```
