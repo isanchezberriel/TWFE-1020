@@ -200,4 +200,21 @@ Código CSS esperado:
 }
 ```
 
-5.
+5. Crear el código Sass adecuado para obtener el CSS a continución:
+```ruby
+ a {
+    color: #beedee;
+  }
+  
+  a:hover {
+    color: #cbbebb;
+  }
+  
+  a.btn {
+    background: #deede6;
+  }
+  
+  a .btn {
+    display: block;
+  }
+```
