@@ -6,4 +6,7 @@
     * WebComponents
     * Gatsby		
 * Interfaz de Usuario, Experiencia de Usuario : Usabilidad - Accesibilidad
-* Informes Seguimiento de la Accesibilidad. UNE-EN: 301549:2019	 
+    * Informes Seguimiento de la Accesibilidad. UNE-EN: 301549:2019	 
+
+## Profesora responsable:
+    Isabel Sánchez Berriel
