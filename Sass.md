@@ -171,3 +171,27 @@ header {
     padding: 5px 20px;
   }
 ```
+4. Dado el código html a continuación, escribir el código Sass para los estilos css que se incluyen:
+```html
+<nav class="navigation">
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+```
+```css
+.navigation {
+  float: right;
+}
+.navigation li {
+  display: inline-block;
+  list-style-type: none;
+  margin-left: 1.5em;
+}
+.navigation a {
+  display: block;
+  text-decoration: none;
+}
+´´´
