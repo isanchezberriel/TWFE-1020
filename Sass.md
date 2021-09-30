@@ -78,3 +78,14 @@ quote(string), str-length(string), str-index(string, substring), to-lower-case(s
 abs(number), ceil(number), comparable(num1, num2), max(number...), ...
 ```
 
+## Ejercicios
+
+1. Instalar Sass en la máquina del pool TWFE
+
+```
+$ sudo apt-get install ruby
+
+$ sudo gem install sass
+
+$ sass -v
+```
