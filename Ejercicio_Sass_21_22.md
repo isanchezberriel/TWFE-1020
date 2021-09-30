@@ -1,25 +1,5 @@
 # Ejercicio Sass:
 En este ejercicio se pondrá en práctica el tema 1 (Herramientas de trabajo) y el tema 2 (Introducción a Sass). Para desarrollar las tareas que se especifican, se ha creado una máquina virtual en el STIC. Se describe el proceso que deben seguir para configurarlas.
-## Descripción del trabajo a realizar
-En la imagen se propone una estructura para una landing page de una empresa. El objetivo es especificar los estilos utilizando Sass.
-  
-![Mockup ejercicio](ejercicioLanding_21_22.PNG)
-  
-Se debe tener en cuenta las siguientes consideraciones:
-- Deben definirse módulos, utilizando al menos los parciales:
-    - _variables.scss
-    - _mixins.scss: 
-    - _base.scss: Estilos comunes, aplicables a todas las páginas del sitio.
-- Definir mixins al menos para: Además se deben definir:
-    - encabezados, h1
-    - centrar contenido
-    - ejemplos de productos y clientes relevantes.
-    - imágenes de redes sociales
-  
-- Anidar los estilos de los botones de form, para que se apliquen estilos específicos en el hover de ellos.
-- Anidar los estilos de los elementos dentro del form, para que se resalten cuando tengan el foco.
-- Utilizar el mimo estilo en las garantías y contacto, pero variando el color de fondo.
-
 ## Configuración de la máquina virtual:
 - Instalar nodejs
 - Instalar npm
@@ -45,6 +25,23 @@ Pueden desplegar el proyecto como una github page.
 Transpilador Sass online: (https://www.sassmeister.com/)  
 Codificar Front End online: (https://codepen.io/pen/)
 
+## Descripción del trabajo a realizar
+En la imagen se propone una estructura para una landing page de una empresa. El objetivo es especificar los estilos utilizando Sass.
+  
+![Mockup ejercicio](ejercicioLanding_21_22.PNG)
+  
+Se debe tener en cuenta las siguientes consideraciones:
+- Deben definirse módulos, utilizando al menos los parciales:
+    - _variables.scss
+    - _mixins.scss: 
+    - _base.scss: Estilos comunes, aplicables a todas las páginas del sitio.
+- Definir mixins al menos para: Además se deben definir:
+    - encabezados, h1
+    - centrar contenido
+    - ejemplos de productos y clientes relevantes.
+    - imágenes de redes sociales
+  
+- Anidar los estilos de los botones de form, para que se apliquen estilos específicos en el hover de ellos.
+- Anidar los estilos de los elementos dentro del form, para que se resalten cuando tengan el foco.
+- Utilizar el mimo estilo en las garantías y contacto, pero variando el color de fondo.
 
-## Extra
-Descarga el código Sass del framework (https://github.com/Dogfalo/materialize/releases/download/1.0.0/materialize-src-v1.0.0.zip) Analiza el código y determina, los parciales mínimos necesarios para construir una barra de navegación.
