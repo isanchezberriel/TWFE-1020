@@ -2,8 +2,8 @@
 
 ## Contenidos:
 * Estándares web: HTML, CSS, JavaScript, XML, JSON, etc. 
-  SASS  
-  WebComponents
-  Gatsby		
+    * SASS
+    * WebComponents
+    * Gatsby		
 * Interfaz de Usuario, Experiencia de Usuario : Usabilidad - Accesibilidad
-** Informes Seguimiento de la Accesibilidad. UNE-EN: 301549:2019	 
+* Informes Seguimiento de la Accesibilidad. UNE-EN: 301549:2019	 
