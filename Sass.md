@@ -218,3 +218,47 @@ Código CSS esperado:
     display: block;
   }
 ```
+6. Crear el código Sass más estructurado posible que genere el código CSS:
+
+```css
+header {
+    border-radius: 5px;
+    padding: 5px 20px;
+  }
+  
+  .footer {
+    border-radius: 5px;
+    padding: 5px 20px;
+  }
+  
+  .feature a {
+    border-radius: 5px;
+    padding: 5px 20px;
+  }
+  
+  .content {
+    border-radius: 5px;
+    padding: 5px 20px;
+
+  }
+  ```
+  
+ 7. Crear el código Sass más estructurado posible que genere el código CSS:
+
+```css
+  .header {
+    -webkit-border-radius: 5px;
+       -moz-border-radius: 5px;
+            border-radius: 5px;
+    /* ... */
+  }
+  
+  .footer {
+    -webkit-border-radius: 10px;
+       -moz-border-radius: 10px;
+            border-radius: 10px;
+    /* ... */
+  }
+ ```
+ 
+
