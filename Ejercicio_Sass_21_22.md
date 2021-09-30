@@ -2,7 +2,9 @@
 En este ejercicio se pondrá en práctica el tema 1 (Herramientas de trabajo) y el tema 2 (Introducción a Sass). Para desarrollar las tareas que se especifican, se ha creado una máquina virtual en el STIC. Se describe el proceso que deben seguir para configurarlas.
 ## Descripción del trabajo a realizar
 En la imagen se propone una estructura para una landing page de una empresa. El objetivo es especificar los estilos utilizando Sass.
-![Mockup ejercicio](EjercicioLanding_2122.png)
+  
+![Mockup ejercicio](ejercicioLanding_21_22.PNG)
+  
 Se debe tener en cuenta las siguientes consideraciones:
 - Deben definirse módulos, utilizando al menos los parciales:
     - _variables.scss
@@ -11,11 +13,12 @@ Se debe tener en cuenta las siguientes consideraciones:
 - Definir mixins al menos para: Además se deben definir:
     - encabezados, h1
     - centrar contenido
-    - estilos del form
+    - ejemplos de productos y clientes relevantes.
+    - imágenes de redes sociales
+  
 - Anidar los estilos de los botones de form, para que se apliquen estilos específicos en el hover de ellos.
 - Anidar los estilos de los elementos dentro del form, para que se resalten cuando tengan el foco.
-- Utilizar el mismo estilo en los encabezados de la parte de testimonio que en la de garantías, pero con un cambio en el color de texto.
-- Utilizar algún estilo de materialize sin incluir todos los estilos. Reutiliza sólo algún componenete.
+- Utilizar el mimo estilo en las garantías y contacto, pero variando el color de fondo.
 
 ## Configuración de la máquina virtual:
 - Instalar nodejs
