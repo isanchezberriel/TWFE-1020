@@ -126,6 +126,48 @@ header {
     color: #222;
   }
 ```
+3. Escribir el código Sass más simplificado posible que genere:
 
-
-4. 
+```css
+.header {
+    background-color: #531946;
+    border-radius: 5px;
+    padding: 5px 20px;
+  }
+  .header a {
+    color: #fff;
+  }
+  .header a:hover {
+    color: #095169;
+  }
+  
+  .footer {
+    background-color: #30162B;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 20px;
+  }
+  .footer a {
+    color: #095169;
+  }
+  .footer a:hover {
+    color: #fff;
+  }
+  
+  .feature a {
+    background-color: #30162B;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 20px;
+  }
+  .feature a:hover {
+    color: #531946;
+  }
+  
+  .content {
+    background-color: #fff;
+    color: #222;
+    border-radius: 5px;
+    padding: 5px 20px;
+  }
+```
