@@ -35,8 +35,8 @@ Se debe tener en cuenta las siguientes consideraciones:
     - _variables.scss
     - _mixins.scss: 
     - _base.scss: Estilos comunes, aplicables a todas las páginas del sitio.
-- Definir mixins al menos para: Además se deben definir:
-    - encabezados, h1
+- Definir mixins al menos para: 
+    - encabezados h1
     - centrar contenido
     - ejemplos de productos y clientes relevantes.
     - imágenes de redes sociales
