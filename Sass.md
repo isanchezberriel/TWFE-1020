@@ -171,7 +171,7 @@ header {
     padding: 5px 20px;
   }
 ```
-4. Dado el código html a continuación, escribir el código Sass para los estilos css que se incluyen:
+4. Dado el código HTML a continuación, escribir el código Sass para los estilos css que se incluyen:
 ```html
 <nav class="navigation">
   <ul>
@@ -181,7 +181,11 @@ header {
   </ul>
 </nav>
 ```
+
+Código CSS esperado:
+
 ```css
+
 .navigation {
   float: right;
 }
@@ -194,4 +198,6 @@ header {
   display: block;
   text-decoration: none;
 }
-´´´
+```
+
+5.
