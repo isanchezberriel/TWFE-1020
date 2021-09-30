@@ -2,7 +2,7 @@
 En este ejercicio se pondrá en práctica el tema 1 (Herramientas de trabajo) y el tema 2 (Introducción a Sass). Para desarrollar las tareas que se especifican, se ha creado una máquina virtual en el STIC. Se describe el proceso que deben seguir para configurarlas.
 ## Descripción del trabajo a realizar
 En la imagen se propone una estructura para una landing page de una empresa. El objetivo es especificar los estilos utilizando Sass.
-![Mockup ejercicio](Ejercicio_IntroSass.png)
+![Mockup ejercicio](EjercicioLanding_2122.png)
 Se debe tener en cuenta las siguientes consideraciones:
 - Deben definirse módulos, utilizando al menos los parciales:
     - _variables.scss
