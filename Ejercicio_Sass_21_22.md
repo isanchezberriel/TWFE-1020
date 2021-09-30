@@ -43,5 +43,5 @@ Se debe tener en cuenta las siguientes consideraciones:
   
 - Anidar los estilos de los botones de form, para que se apliquen estilos específicos en el hover de ellos.
 - Anidar los estilos de los elementos dentro del form, para que se resalten cuando tengan el foco.
-- Utilizar el mimo estilo en las garantías y contacto, pero variando el color de fondo.
+- Utilizar el mismo estilo en las garantías y contacto, pero variando el color de fondo.
 
