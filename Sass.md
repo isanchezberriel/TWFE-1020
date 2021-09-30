@@ -89,3 +89,9 @@ $ sudo gem install sass
 
 $ sass -v
 ```
+2. Escribir el código Sass que simplifique las reglas CSS:
+```
+
+
+
+4. 
