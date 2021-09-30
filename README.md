@@ -1,7 +1,7 @@
 # Sistemas y Tecnologías Web: Cliente - Módulo Frontend
 
 ## Contenidos:
-*Estándares web: HTML, CSS, JavaScript, XML, JSON, etc. 
+* Estándares web: HTML, CSS, JavaScript, XML, JSON, etc. 
   SASS  
   WebComponents
   Gatsby		
