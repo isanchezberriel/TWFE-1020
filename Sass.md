@@ -15,3 +15,19 @@ $ sudo gem install sass
 
 $ sass -v
  ```
+
+## Variables
+```ruby 
+$nombre: valor
+ ```
+ 
+ ## Anidamiento
+
+Simplificar sintaxis de propiedades con el mismo prefijo mediante anidamiento. Sass permite anidar selectores como en HTML
+```ruby
+prefijo
+{
+	sufijo1: valor1
+	sufijo2: valor2
+}
+```
