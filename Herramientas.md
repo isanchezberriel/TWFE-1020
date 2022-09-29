@@ -1,7 +1,7 @@
 # Tecnologías Web: Cliente
 ## Herramientas de desarrollo en el lado del Cliente.
 
-- Editor de texto
+- VS Code
 - Navegador
 - Gestión de paquetes: *npm*, *brower*
 - Control de versiones: *Git*
