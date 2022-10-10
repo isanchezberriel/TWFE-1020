@@ -36,12 +36,11 @@ Se debe tener en cuenta las siguientes consideraciones:
     - _mixins.scss: 
     - _base.scss: Estilos comunes, aplicables a todas las páginas del sitio.
 - Definir mixins al menos para: 
-    - encabezados h1
+    - encabezados h2
     - centrar contenido
-    - ejemplos de productos y clientes relevantes.
     - imágenes de redes sociales
   
-- Anidar los estilos de los botones de form, para que se apliquen estilos específicos en el hover de ellos.
 - Anidar los estilos de los elementos dentro del form, para que se resalten cuando tengan el foco.
-- Utilizar el mismo estilo en las garantías y contacto, pero variando el color de fondo.
+- Definir un estilo para los productos  y usar herencia para los clientes
+
 
